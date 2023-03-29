@@ -88,7 +88,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://cs-open-ai.onrender.com/', {
+    const response = await fetch('http://localhost:8080/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
